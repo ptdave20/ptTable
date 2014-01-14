@@ -1,0 +1,43 @@
+.table {
+	display: table;
+}
+.tableHeader {
+	display: table-header-group;
+}
+.tableBody {
+	display: table-row-group;
+}
+.tableRow {
+	display: table-row;
+}
+.tableCell {
+	display: table-cell;
+	padding: 3px;
+	margin: 3px;
+	max-width: 200px;
+	word-wrap: break-word;
+}
+.tableCell input[type="date"] {
+	width: 100px;
+}
+.tableCell select {
+	width: 150px;
+}
+.tableCell input[type="text"] {
+	width: 180px;
+}
+.tableFooter {
+	display: table-footer-group;
+}
+.tablePopOver {
+	display: block;
+	position: absolute;
+	z-index: 9999;
+	padding: 5px;
+}
+.tablePopOver select {
+	display: block;
+}
+.tablePopOver button {
+	width: 100%;
+}
